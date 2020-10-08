@@ -24,7 +24,7 @@ class BankAccount
     end
   end
   
-  def deposit(num)
+  def deposit
     deposit = BankAccount.new
     @balance << deposit
     
