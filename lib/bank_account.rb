@@ -25,7 +25,7 @@ class BankAccount
   end
   
   def deposit(money)
-    deposit += money
+    @balance += money
     
   end
   
@@ -42,8 +42,7 @@ class BankAccount
   end
   
   def close_account
-    newstatus = BankAccount.new(status = "closed")
-    newstatus
+    @status = "closed"
   end
 
 end
