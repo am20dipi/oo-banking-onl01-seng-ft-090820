@@ -25,7 +25,7 @@ class BankAccount
   end
   
   def deposit
-    #deposit = @balance + 1000
+    deposit = @balance + 1000
     @balance << deposit
   end
   
